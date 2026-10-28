@@ -2,7 +2,7 @@
 function Navbar() {
   return (
     <nav className="flex w-full items-center justify-between gap-4 border-b border-violet-100 bg-white px-5 py-3">
-      {/* here Logo and Session ID */}
+
       <div className="flex shrink-0 items-center gap-2">
         <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-violet-600 text-sm font-bold text-white">
           Q
@@ -16,7 +16,7 @@ function Navbar() {
         </span>
       </div>
 
-      {/* it is Navigation */}
+
       <div className="flex items-center gap-1">
         <a
           href="/waiting-room"
